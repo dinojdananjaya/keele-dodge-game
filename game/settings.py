@@ -22,8 +22,8 @@ class Settings:
 
     BASE_FALL_SPEED: float = 3.5
     BASE_SPAWN_CHANCE: float = 0.03
-    DIFFICULTY_RAMP: float = 0.00002
+    DIFFICULTY_RAMP: float = 0.000025
 
-    COLLISION_PAD: int = 2
+    COLLISION_PAD: int = 3
 
 SETTINGS = Settings()
