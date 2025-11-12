@@ -60,10 +60,10 @@ class App:
 
         if self.state.game_over:
             self.canvas.create_text(SETTINGS.WIDTH/2, SETTINGS.HEIGHT/2, fill="#FFFFFF",
-                                    font=("Consolas", 28, "bold"),
+                                    font=("Consolas", 30, "bold"),
                                     text="GAME OVER", tags="game")
             self.canvas.create_text(SETTINGS.WIDTH/2, SETTINGS.HEIGHT/2 + 36, fill="#CCCCCC",
-                                    font=("Consolas", 16),
+                                    font=("Consolas", 18),
                                     text="Press Enter to restart", tags="game")
 
     def _loop(self):
